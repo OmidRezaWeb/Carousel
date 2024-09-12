@@ -1,0 +1,26 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+.image-continer {
+    width: 300px;
+    height: 500px;
+    border-radius: 1rem;
+    overflow: hidden;
+
+}
+
+.image-carousel {
+    display: flex;
+    transform: translateX(0);
+    transition: transform .5s linear;
+}
+
+.image-carousel .im {
+    width: 300px;
+    height: 500px;
+}
